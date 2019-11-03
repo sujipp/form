@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            display: grid;
+            margin: 0;
+            grid-template-rows: auto auto auto 600px 500px 500px 500px auto ;
+            grid-column-gap: 20px;
+            background-color: #D3D3D3;
+        }
+        .center {
+            display: block;
+            text-align: center;
+        }
+        .font{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 16px;
+        }
+        header h1{
+            margin-top: 60px;
+            font-size: 50px;
+            text-align: center;
+        }
+        #proposal{
+            font-family: 'Mali', sans-serif;
+            font-size: 16px;
+        }
+        .lofi{
+            display: grid;
+            grid-template-columns: auto auto auto 1fr;
+            height: 250px;
+            width: 200px;
+            grid-column-gap: 100px;
+            margin-left: 120px;
+
+        }
+
+        .img{
+            height: 500px;
+            width: 350px;
+        }
+        .imgcen{
+            margin-left: 450px;
+            margin-right: auto;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .border{
+            /*border: 7px solid dimgray;*/
+        }
+        .act{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-column-gap: 10px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+</head>
+<body  style="background:#D3D3D3">
+
+    <div class=" container ">
+        <div >
+            <header style="display: inline;height: 100%">
+                <h1  style="font-size: 60px;padding: auto">About</h1><br>
+            </header>
+        </div>
+        <div class="act">
+            <div>
+                <h2 class="center " style="font-size: 40px;">Project Proposal</h2>
+                <pre id="proposal">
+                <b>1.&nbspชื่อโครงงาน: I’m in</b><br>
+                <b>2.&nbspปัญหาและจุดประสงค์</b><br>
+                    <b>ปัญหา</b>
+                        ปัจจุบันชีวิตและไลฟ์สไตล์ของคนทั่วไปมีมากมายแต่คนละอาจมีความสนใจต่าง
+                        หรือเหมือนกันแต่ละคนอาจมีความชอบที่สนใจเข้าร่วมกิจกกรมต่างๆที่ตัวเองชอบ
+                        แต่คนรอบข้างไม่สนใจหรือไม่ว่าง บางกิจกรรมต้องมีคนไปด้วยเพื่อไม่ให้เหงา หรือ
+                        เพื่อความปลอดภัย เช่น กิจกกรมไปดูคอนเสิร์ตต้องกลับดึกจะได้มีเพื่อนกลับ 
+                        กิจกรรมปลูกป่า ไปหลายคนเพื่อช่วยกันจ่ายค่ารถ เป็นต้น นอกจากนี้ยังมี
+                        กิจกรรมที่จำเป็นต้องมีคนครบถึงทำได้เช่่น โปรร้านอาหารมา4จ่าย3 <br>
+                    <b>จุดประสงค์</b>
+		                เพื่อรวมกลุ่มคนที่สนใจในเรื่องเดียวกันไปทำกิจกรรมร่วมกัน ได้ง่าย สะดวกและรวดเร็วมากขึ้น<br>
+                <b>3.&nbspกลุ่มเป้าหมายเพื่อใช้งาน</b>
+		                บุคคลทั่วที่ต้องการเพื่อนร่วมกิจกรรมที่ตนเองสนใจ<br>
+                <b>4.&nbspรายละเอียดข้อกำหนดของระบบ</b>
+                        - ผู้ใช้งานต้องทำการยืนยันเข้าเป็นสมาชิกด้วยข้อมูลที่เชื่อถือได้
+                        - ผู้ใช้งานสามารถสมัครสมาชิกได้
+                        - ผู้ใช้งาน(สมาชิก)สามารถตั้งกระทู้กิจกรรมเพื่อหาเพื่อนร่วมกิจกรรมได้
+                        - ผู้ใช้ (สมาชิก) สามารถได้รับการแจ้งเตือน tag ที่เลือกไว้ได้
+                        - ผู้ใช้(สมาชิก) สามารถกดเข้าร่วมกิจกรรมที่ตนเองสนใจได้
+                        - ไม่อนุญาตให้สมาชิกใช้คำหยาบทั้งภาษาไทยและภาษาอังกฤษ ดั้งนั้นผู้ใช้(สมาชิก)
+                            สามารถกดรายงานบุคคลที่มีพฤติกรรมที่อาจส่งผลเสียต่อบุคคลหรือทรัพย์สินได้
+                        - ผู้ใช้(สมาชิก) สามารถโหวตกระทู้ที่ตัวเองสนใจได้
+                        - กระทู้ที่มีจำนวนโหวตมากสุด 3 อันดับแรกจะถูกจัดให้อยู่หน้าโฮมเพจ
+                        - ผู้ใช้(สมาชิก) สามารถถอดตัวจากกิจกรรมที่ลงเข้าร่วมไปแล้วได้
+                        - ผู้ใช้(สมาชิก)สามารถแสดงความคิดเห็นได้
+                        - ผู้ใช้(สมาชิก)สามารถสร้าง chat roomได้ ภายในแต่ละกระทู้
+
+            </pre>
+                <div class="act">
+                    <div>
+                        <h2 class="font" style="font-size: 20px;margin-left: 150px">Team Members</h2>
+                        <pre class="font" style="margin-left: 50px">
+                    1.&nbspSasithon &nbsp&nbspKaprasit      6010520143<br>
+                    2.&nbspNatthida &nbsp&nbspPanya          6010613385<br>
+                    3.&nbspPinkaew  &nbspHorputra     6010613401<br>
+                    4.&nbspSujittra &nbsp&nbsp&nbsp&nbspPuangarom  6010613567<br><br>
+                        </pre>
+                    </div>
+
+                    <div style="margin-top: 20px">
+                        <p class="font" style="font-size: 18px;margin-left: 100px"><a href="https://gitlab.com/6010613385/im_in"target="_blank"><%= image_tag("gitlab.png", size: "50x50", align:"middle")%></a>&nbsp&nbsplinks to git repository</p>
+                        <p class="font" style="font-size: 18px;margin-left: 100px"><a href="https://www.pivotaltracker.com/n/projects/2406136"target="_blank"><%= image_tag("pi.png", size: "50x50", align:"middle")%></a>&nbsp&nbsplinks to pivotal tracker </p>
+
+                    </div>
+
+            </pre>
+                </div>
+            </div>
+            <div>
+                <h2 class="center " style="font-size: 40px;">User stories</h2>
+                <pre class="font" style="margin-left: 100px" >
+
+                    As a   visitor,
+                    I want to register,
+                    So that I can join as a member.
+                    
+
+                    As a   member,
+                    I want to join in each thread,
+                    So that I can have Activity partner.
+
+                    As a   member,
+                    I want to create event to each thread,
+                    So that I can have Activity partner.
+
+                    As a   member,
+                    I want to see the top 3 of threads,
+                    So that I can join popular activities.
+
+                    As a   member,
+                    I want to receive the new events from tag which I chose,
+                    So that I can join activities that I am really interested.
+
+                    As a   member,
+                    I want to create comment,
+                    So that I can know detail about events.
+
+                    As a   member,
+                    I want to leave activities,
+                    So that I can do something emergency!
+
+                    As an owner of each thread,
+                    I want to delete member in my thread,
+                    So that I can choose someone else that is reliable.
+
+
+                    As a member,
+                    I want to vote popular event,
+                    So that I can set the popular event by myself.
+
+                    As a member,
+                    I want to go in to chat room to tell detail to others,
+                    So that everybody knows the detail.
+
+            </pre>
+            </div>
+        </div>
+        <div style="margin-bottom: 150px;margin-top: 25px">
+            <h2 class="center" style="font-size: 40px">LoFi UI</h2>
+            <div class="lofi" style="margin-top: 100px;">
+
+                    <%= image_tag("1.png", :class => "img") %>
+                    <%= image_tag("2.png", :class => "img") %>
+                    <%= image_tag("3.png", :class => "img") %>
+
+            </div>
+        </div>
+        <div class="lofi" style="margin-top: 250px;">
+            <%= image_tag("4.png", :class => "img") %>
+            <%= image_tag("5.png", :class => "img") %>
+            <%= image_tag("6.png", :class => "img") %>
+        </div>
+        <div class="lofi " style="margin-top: 350px;">
+            <%= image_tag("7.png", :class => "img") %>
+            <%= image_tag("8.png", :class => "img") %>
+            <%= image_tag("9.png", :class => "img") %>
+        </div>
+        <div class="lofi" style="margin-top: 500px;margin-bottom: 50px">
+            <%= image_tag("10.png", :class => "img imgcen") %>
+        </div>
+    </div>
+
+
+</body>
+</html>
