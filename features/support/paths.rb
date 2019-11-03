@@ -15,6 +15,12 @@ module NavigationHelpers
 
     when /^the home\s?page$/
       '/'
+    when /the new report page/
+      new_report_path
+
+    when /the new event page/
+      new_event_path
+
     when /the new user page/
       new_user_path
 
